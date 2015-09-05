@@ -1,6 +1,6 @@
 {
   "name": "csslint-oz",
-  "version": "0.10.0-d",
+  "version": "0.10.0-d4",
   "description": "CSSLint (forked)",
   "author": "Onno van der Zee",
   "contributors": [
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "clone": "~1.0.0",
-    "parserlib-oz": "^0.2"
+    "parserlib-oz": "^0.2.5"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
