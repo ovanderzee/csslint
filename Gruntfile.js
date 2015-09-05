@@ -90,7 +90,7 @@ module.exports = function(grunt) {
                 options: {
                     banner: "<%= banner.full %>\n" +
                             "var clone = require('clone');\n" +
-                            "var parserlib = require('parserlib');\n",
+                            "var parserlib = require('parserlib-oz');\n",
                     footer: "\nexports.CSSLint = CSSLint;"
                 },
                 files: {

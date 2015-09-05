@@ -1,18 +1,16 @@
 {
-  "name": "csslint",
-  "version": "0.10.0",
-  "description": "CSSLint",
-  "author": "Nicole Sullivan",
+  "name": "csslint-oz",
+  "version": "0.10.0d",
+  "description": "CSSLint (forked)",
+  "author": "Onno van der Zee",
   "contributors": [
+    "Nicole Sullivan",
     "Nicholas C. Zakas"
   ],
   "homepage": "http://csslint.net/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CSSLint/csslint.git"
-  },
-  "bugs": {
-    "url": "https://github.com/CSSLint/csslint/issues"
+    "url": "https://github.com/ovanderzee/csslint.git"
   },
   "license": {
     "type": "MIT",
@@ -27,7 +25,7 @@
   },
   "dependencies": {
     "clone": "~1.0.0",
-    "parserlib": "~0.2.5"
+    "parserlib-oz": "^0.2"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
