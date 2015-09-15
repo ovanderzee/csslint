@@ -120,7 +120,7 @@ module.exports = {
                 "--version"
             ],
             "expecting": [
-                "v0.10.0d",
+                "v0.10.0-f1",
                 0
             ]
         }
