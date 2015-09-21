@@ -61,7 +61,7 @@ CSSLint.addRule({
 					}
                     //one use or multiple equal uses means that this is overqualified
                     if (classes[prop][0].part.elementName && equalParts) {
-                        reporter.report("Element (" + classes[prop][0].part + ") is overqualified, just use " + classes[prop][0].modifier + " without element name, line " + lines.join(', ') + ".", classes[prop][0].part.line, classes[prop][0].part.col, rule);
+                        reporter.report("Element (" + classes[prop][0].part + ") is overqualified, just use " + classes[prop][0].modifier + " without element name" + ((lines.length > 1) ? " (found " + lines.length + "x)" : "") + ".", classes[prop][0].part.line, classes[prop][0].part.col, rule);
                     }
                 }
             }
