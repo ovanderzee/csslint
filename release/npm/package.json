@@ -1,6 +1,6 @@
 {
   "name": "csslint-oz",
-  "version": "0.10.0-f1",
+  "version": "0.10.0-g",
   "description": "CSSLint (forked)",
   "author": "Onno van der Zee",
   "contributors": [
@@ -20,6 +20,9 @@
   "bin": {
     "csslint-oz": "./cli.js"
   },
+  "scripts": {
+    "test": "grunt test"
+  },
   "dependencies": {
     "clone": "~1.0.0",
     "parserlib-oz": "*"
@@ -36,5 +39,8 @@
   },
   "engines": {
     "node": ">=0.8.0"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
